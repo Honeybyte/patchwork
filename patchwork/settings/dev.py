@@ -99,3 +99,9 @@ if dbbackup:
 ENABLE_XMLRPC = True
 
 ENABLE_REST_API = True
+
+# model graph generation
+
+INSTALLED_APPS += [
+    'django_extensions'
+]

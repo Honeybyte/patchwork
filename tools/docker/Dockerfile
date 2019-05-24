@@ -36,7 +36,7 @@ RUN apt-get update -qq && \
     python3.5-dev python3-pip python3-setuptools python3-wheel \
     python3.4-dev findutils=4.4.2-7 python3.6-dev \
     libmysqlclient-dev mysql-client curl unzip build-essential \
-    git postgresql-client tzdata libpq-dev
+    git postgresql-client tzdata libpq-dev graphviz
 
 # User
 RUN useradd --uid=$UID --create-home patchwork
